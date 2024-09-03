@@ -1,0 +1,197 @@
+/* body section css start */
+/* .body-img{
+    background-image: url(../images/bg.jpg);
+    width: 100vw;
+    /* height: 100vh; */
+/* position: fixed;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+} */
+.bg__img_background {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+/* body section css end */
+
+/* hero section css start */
+.hero_section img {
+  width: 100%;
+  height: 300px;
+}
+/* hero section css end */
+
+/* shagoon showroom details section css start */
+.detail_section .shagoon img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px !important;
+  margin: -60px;
+  padding: 5px;
+  background-color: rgba(213, 211, 211, 0.4);
+  box-shadow: 0px 1px 9px 1px rgba(213, 211, 211, 1)
+}
+.detail_section .shagoon h1 {
+  font-family: serif, sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.detail_section .row p {
+  color: white;
+}
+.divya__verma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  font-size: 28px;
+  background-color: #f9b621;
+  color: black;
+  border-radius: 50%;
+}
+.divya__verma a {
+  color: black;
+}
+.detail_section .stars i {
+  color: #f9b621;
+}
+.detail_section .social_icon i:hover{
+  transform: rotate(360deg);
+  transition: 0.4s;
+}
+
+/* shagoon showroom details section css end */
+
+/* about us section css start */
+.about_section {
+  color: rgb(255, 166, 2);
+  text-align: center;
+}
+#panel {
+  padding: 20px;
+  display: none;
+  color: white;
+}
+#flip{
+  color: black;
+  font-weight: 600;
+  box-shadow: none;
+}
+.about_section hr {
+  height: 5px;
+  width: 50% !important;
+  display: block;
+  margin: 2px auto;
+}
+.about_section .para {
+  color: white;
+  text-align: left;
+  font-weight: 500;
+}
+/* about us section css end */
+
+/* service section css start */
+.service_section {
+  color: orange;
+  padding-top: 23px;
+}
+.service_section hr {
+  width: 55%;
+  height: 5px;
+  margin-top: 8px;
+}
+
+.service_section .nav-tabs {
+  border-bottom: none;
+}
+
+.service_section .nav-tabs .nav-item button {
+  margin: 0 5px;
+  color: #000000;
+  background-color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.service_section .nav-tabs .nav-item .active {
+  background-color: orange;
+  border-color: orange;
+}
+.service_section .nav-tabs{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  overflow-x: auto;
+}
+/* service section css end */
+
+/* gallery section css start */
+.Gallery_section {
+  color: orange;
+  padding-top: 23px;
+  font-size: 18px;
+}
+.Gallery_section hr {
+  width: 55%;
+  height: 5px;
+  margin-top: 8px;
+}
+.Gallery_section .row{
+  row-gap: 15px;
+}
+.Gallery_section .row img{
+  width: 100%;
+  object-fit: cover;
+  height: 280px;
+  border: 4px solid yellow;
+  
+}
+
+.Gallery_section .row img:hover{
+  transform: scale(0.8);
+  transition: 0.5s;
+}
+/* gallery section css end */
+
+/* feedback section css start */
+.feedback_section{
+  text-align: center;
+  color: orange;
+}
+.feedback_section hr{
+  width: 55%;
+  height: 5px;
+  margin-top: 5px;
+}
+
+/* feedback section css end */
+/* ======= */
+/* ======= */
+
+.custom_whatsapp_share {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.custom_whatsapp_share input {
+  height: 100%;
+}
+.custom_whatsapp_share a {
+  height: 100%;
+  width: 265px;
+}
+/* .total_reviews .fill_review i{
+  font-size: 18px !important;
+} */
